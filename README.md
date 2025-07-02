@@ -23,3 +23,16 @@ A simple and elegant React application that displays random inspiring quotes.
 1. Clone the repository:  
    ```bash
    git clone https://github.com/dimarye/random-quote-machine.git
+Install dependencies:
+
+bash
+Копировать
+Редактировать
+npm install
+Start the development server:
+
+bash
+Копировать
+Редактировать
+npm run dev
+Open your browser and go to http://localhost:3000
