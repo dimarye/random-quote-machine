@@ -1,0 +1,23 @@
+@mixin button {
+  background-color: var(--color-button-bg);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &:hover {
+    background-color: var(--color-button-bg-hover);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
